@@ -3,17 +3,17 @@
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
     <option name="confirmBeforeUploading" value="false" />
     <serverData>
+      <paths name="OVH-Web">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/A_SyncBase/dockers/GM_script" local="$PROJECT_DIR$/" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="wsl">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="甲骨文圣何塞">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/home/A_SyncBase/dockers/GM_script" local="$PROJECT_DIR$/" web="/" />
           </mappings>
         </serverdata>
       </paths>

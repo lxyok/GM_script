@@ -44,13 +44,13 @@ form.fm {
   margin-bottom: 0px;
 }
 
-#container.sam_newgrid #content_left, 
-.pc-fresh-wrapper-con #container.sam_newgrid #content_left{
+#container.sam_newgrid #content_left,
+body[baidu].pc-fresh-wrapper-con #container.sam_newgrid #content_left{
   width: 85%;
 }
 
-.pc-fresh-wrapper .wrapper_new #s_tab .s_tab_inner.s-old-tag, 
-.pc-fresh-wrapper .wrapper_new.wrapper_s #s_tab .s_tab_inner.s-old-tag, 
+.pc-fresh-wrapper .wrapper_new #s_tab .s_tab_inner.s-old-tag,
+.pc-fresh-wrapper .wrapper_new.wrapper_s #s_tab .s_tab_inner.s-old-tag,
 .pc-fresh-wrapper .wrapper_new.wrapper_l #s_tab .s_tab_inner.s-old-tag{
   padding: unset;
   margin: 0 auto;
@@ -146,7 +146,7 @@ body[news] #wrapper #content_left > div:not([class]):not([id]) {
   display: flex;
 }
 
-body[baidu] .result-molecule.new-pmd {
+body[baidu] .result-molecule.new-pmd:has(#s_tab) {
   margin: 0 auto;
   min-width: 800px;
   width: 50% !important;
@@ -186,13 +186,13 @@ body[baidu] .result-molecule.new-pmd {
     margin-left: -170px;
   }
 
-  .pc-fresh-wrapper-con #container.sam_newgrid #content_left{
+  body[baidu].pc-fresh-wrapper-con #container.sam_newgrid #content_left{
     width: 100%;
   }
 }
 
 @media screen and (max-width: 1700px) {
-  .pc-fresh-wrapper-con #container.sam_newgrid #content_left{
+  body[baidu].pc-fresh-wrapper-con #container.sam_newgrid #content_left{
     width: 80%;
   }
 }
